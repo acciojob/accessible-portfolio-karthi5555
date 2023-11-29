@@ -11,15 +11,35 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<nav id="ex_1">
-	</nav>
-	<h1 id="ex_2"></h1>
-	<img href="#" alt="an image">
-	<ul id="ex_3">
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
+	<header>
+    <h1 role="heading">My Accessible Portfolio</h1>
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#portfolio">Portfolio</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about">
+    <img src="https://embed.pixiv.net/decorate.php?illust_id=85495085" alt="A picture of the author" role="img">
+    <p>A passionate web developer dedicated to creating accessible and inclusive websites.</p>
+</section>
+
+<section id="portfolio">
+    <h2 role="heading">Portfolio</h2>
+    <ul role="list">
+        <li role="listitem">Project 1: Responsive Website</li>
+        <li role="listitem">Project 2: Accessible Blog</li>
+        <li role="listitem">Project 3: Interactive Web App</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2 role="heading">Contact</h2>
+    <p>Feel free to reach out to me via email at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
+</section>
 	
 </body>
 
